@@ -1,10 +1,19 @@
 #Variables and input
 
+
 price = 100
 print(price)
 
 rating = 4.5
 print(rating)
+
+#use float for decimal input
+decimal1 = 4.8
+decimal2 = float(input("decimal number: "))
+addedDecimals = decimal1 + decimal2
+print(addedDecimals)
+
+
 name = "Tareq Aziz"
 print(name)
 is_True = False
