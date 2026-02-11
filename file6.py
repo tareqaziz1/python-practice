@@ -40,7 +40,7 @@ if is_returning_customer:
     discounted_price = price - (price * 0.1)
     print(discounted_price)
 
-elif customer_age > 50:
+elif customer_age > 50:    # This condition is fulfilled and it is executed.
     discounted_price = price - (price * 0.2)
     print(discounted_price)
 
