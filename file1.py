@@ -1,3 +1,5 @@
+#Variables and input
+
 price = 100
 print(price)
 
@@ -19,7 +21,7 @@ inputName = input("What's your name? ")
 
 print(inputName)
 
-#how to take number input
+#uphow to take number input
 
 inputNumber = int(input("What is your age? "))
 
