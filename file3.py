@@ -20,6 +20,11 @@ print(finding_p) #sequence
 replacement = subject.replace("Introduction", "Road")
 print(replacement)
 
+#To make first letter upper case
+string1 = "python is a programming language"
+first_letter_upper = string1.title() #Python Is A Programming Language
+print(first_letter_upper)
+
 # "in" operator (boolean outcome)
 
 print("Python" in subject) #True
