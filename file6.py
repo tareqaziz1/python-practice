@@ -47,3 +47,31 @@ elif customer_age > 50:    # This condition is fulfilled and it is executed.
 else:
     customer_price = price - (price * 0.05)
     print(customer_price)
+
+'''If temperature is 30, it's a hot day. 
+If it is less than 10 then it's a very cold day,
+otherwise it's a normal day'''
+
+temperature = 30
+
+if temperature == 30: # == is an assignment operator
+    print("It's a hot day!")
+elif temperature < 10:
+    print("It's a very cold day!")
+else:
+    print("It's a normal day")
+
+
+'''If name is less than 3 character long, show name must be 3 character.
+If it is 10 character long then show - it must be within 10 characters.
+ Otherwise show name looks good'''
+
+name = "tareq"
+
+if len(name) < 3:
+    print("Name must be at least 3 character")
+elif len(name) > 10:
+    print("Name must be within 10 character")
+else:
+    print("Name looks good!")
+
