@@ -21,3 +21,16 @@ else:
 
 if has_high_score and not has_good_skills:
     print("Boolean value is reversed")
+
+# program -  weight converter
+
+weight = int(input("Weight: "))
+unit = input("(L) for pounds or (K) for kilograms")
+
+if unit.upper() == "L":
+    converted_weight = weight*0.4535
+    print(f"Your weight is {converted_weight}")
+else:
+    converted_weight = weight / 0.4535
+    print(f"Your weight is {converted_weight}")
+
