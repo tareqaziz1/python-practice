@@ -33,7 +33,7 @@ secret_number = 7
 guess = 0
 guess_limit = 3
 
-while guess < guess_limit:
+''''while guess < guess_limit:
     input_number = int(input("What is the secret number? : "))
     guess += 1
     if secret_number == input_number:
@@ -44,11 +44,38 @@ while guess < guess_limit:
         print("Your guess is wrong. Try again !")
         print("Thank you for playing.")
     else:
-        print("Your guess is wrong. Try again !")
+        print("Your guess is wrong. Try again !")'''
 
 # car engine program
 
+command = ""
+started = True
+stopped = True
+while True:
+    command = input("> ").lower()
+    if command == "start":
+        if started:
+            print("Car already started...")
+        else:
+            started = True
+            print("Car started...")
 
+    elif command == "stop":
+        if stopped:
+            print("Car already stopped...")
+        else:
+            stopped = True
+            print("Car stopped...")
+    elif command == "help":
+        print('''
+        start - to start the car.
+        stop - to stop the car.
+        quit - to quit''')
+    elif command == "quit":
+        print("Game Over!")
+        break
+    else:
+        print("Wrong command! to get help, type - help")
 
 
 
