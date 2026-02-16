@@ -35,4 +35,33 @@ for item_price in prices:
 
 print(f"Total price: {total_price}")
 
+# nested loop (For iterating items and items inside items)
 
+'''
+(x,y)
+(0,1)
+(0,1)
+(0,2)
+(1,0)
+(1,1)
+(1,2)
+'''
+
+for i in range(3):
+    for j in range(2):
+        print(f"({i},{j})")
+
+#make an F shape with asterisks
+
+rows = [5, 2, 5, 2, 2]
+
+for star in rows:
+    output = ""
+    for star1 in range(star):
+        output += "*"
+    print(output)
+
+# OR
+
+for star in rows:
+    print(star * 'x')
