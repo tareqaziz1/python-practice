@@ -1,4 +1,5 @@
 # All about List []
+# List is like a container that can hold multiple values in one variable.
 
 names = ["John", "Tom", "Sofia", "Sarah"]
 print(names[0]) # output- John
