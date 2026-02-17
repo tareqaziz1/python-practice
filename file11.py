@@ -41,5 +41,22 @@ print(ages) # now returns sorted list - [21, 25, 26, 28, 28, 30, 32, 50]
 print(ages.reverse())
 print(ages) #output - [50, 32, 30, 28, 28, 26, 25, 21] sorted in decending order.
 
-# copy method (copies the
+# copy method (copies the list in a new variable)
+new_ages = ages.copy()
+print(new_ages)
 # clear method (makes it empty)
+
+new_ages.clear()
+print(new_ages) # output- [] empty list
+
+#Exercise - remove the duplicate from the list
+
+numbers = [2,4,6,7,3,8,9,3,4,1]
+unique = []
+
+for number in numbers:
+    if number not in unique:
+        unique.append(number)
+
+print(unique)
+
