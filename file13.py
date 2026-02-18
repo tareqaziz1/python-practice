@@ -60,3 +60,20 @@ for num in your_number:
     output += converted
 print(output)
 
+
+message = input("> ")
+words = message.split(" ")
+
+
+emojis = {
+    "happy": ":)",
+    "sad": ":(",
+    "angry": "-_-",
+    "shy": "^_^"
+}
+output_with_emoji = ""
+for word in words:
+    coverted = emojis.get(word, word)
+    output_with_emoji += coverted
+
+print(output_with_emoji)
