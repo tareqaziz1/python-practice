@@ -41,8 +41,3 @@ print(square(5))    # without return it will return "None"
 
 
 
-
-
-
-
-
