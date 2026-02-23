@@ -25,6 +25,20 @@ custom_greeting("Tareq", "Aziz", "Welconme aboard!")
 
 custom_greeting(last_name="Aziz", message="Good evening", first_name="Tareq")
 
+# fucntion with return statement
+
+def square (number):
+    return number * number
+
+result = square(4)
+print(result)
+#or
+print(square(5))    # without return it will return "None"
+
+
+
+
+
 
 
 
