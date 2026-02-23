@@ -35,6 +35,13 @@ print(result)
 #or
 print(square(5))    # without return it will return "None"
 
+# Function that returns cube of a number
+def cube(number):
+    return number ** 3
+
+print(cube(4))
+
+
 
 
 
