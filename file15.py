@@ -13,5 +13,3 @@ except ValueError:
     print("value should be a number!")
 except ZeroDivisionError:
     print("Age cannot be 0!")
-
-
