@@ -25,6 +25,13 @@ custom_greeting("Tareq", "Aziz", "Welconme aboard!")
 
 custom_greeting(last_name="Aziz", message="Good evening", first_name="Tareq")
 
+# function with default argument
+
+def smith_family(first_name, last_name = "Smith"):
+    print(f"Hello! {first_name} {last_name}, Thanks for joining")
+
+print(smith_family("Bob"))
+
 # fucntion with return statement
 
 def square (number):
@@ -40,6 +47,8 @@ def cube(number):
     return number ** 3
 
 print(cube(4))
+
+
 
 
 
