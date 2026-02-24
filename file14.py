@@ -33,6 +33,7 @@ def smith_family(first_name, last_name = "Smith"):
 print(smith_family("Bob"))
 
 # fucntion with return statement
+# Every function returns a "None" by default
 
 def square (number):
     return number * number
@@ -47,6 +48,30 @@ def cube(number):
     return number ** 3
 
 print(cube(4))
+
+# Emoji converter function
+
+def convert_to_emoji(message):
+    words = message.split(" ")
+
+    emojis = {
+        "happy": ":)",
+        "sad": ":(",
+        "angry": "-_-",
+        "shy": "^_^"
+    }
+    output = ""
+    for word in words:
+        coverted = emojis.get(word, word)
+        output += coverted + " "
+    return output
+
+message = input("> ")
+print(convert_to_emoji(message))
+
+
+
+
 
 
 
