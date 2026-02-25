@@ -13,3 +13,21 @@ with its own values but the same structure.
 This makes code more organized, reusable, and easier to manage as programs grow.
 '''
 
+class Car:                            # Creating a Blueprint for car.
+    def __init__(self, brand, year):  # Constructor for Class
+        self.brand = brand            # It takes the values passed in (brand, year) and stores them inside the object.
+        self.year = year
+
+    def drive(self):
+        print(f"the brand is {self.brand} {self.year} and it is driving!")  #output- the brand is Tesla 2026 and it is driving!.
+
+# Making 2 car objects
+
+car1 = Car("Tesla", 2026)
+car2 = Car("Toyota", 2020)
+
+
+print(car1.brand)
+print(car2.brand, car2.year)
+
+car1.drive()
