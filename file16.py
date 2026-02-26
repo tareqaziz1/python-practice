@@ -39,7 +39,10 @@ class Triangle:
     def draw(self):
         print("Draw")
 
-
+triangle1 = Triangle()
+triangle1.x = 10
+triangle1.y = 15
+triangle1.z = 20
 class Points:
     def __init__(self,x,y):
         self.x = x
