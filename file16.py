@@ -31,3 +31,21 @@ print(car1.brand)
 print(car2.brand, car2.year)
 
 car1.drive()
+
+class Points:
+    def __init__(self,x,y):
+        self.x = x
+        self.y = y
+
+    def add_axis(self):
+        addition = self.x + self.y
+        return addition
+
+
+
+point1 = Points(5.5, 2.3)
+point2 = Points(2.1, 3.3)
+
+
+print(point1.add_axis())
+print(point2.add_axis())
