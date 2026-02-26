@@ -32,6 +32,14 @@ print(car2.brand, car2.year)
 
 car1.drive()
 
+class Triangle:
+    def move(self):
+        print("Move")
+
+    def draw(self):
+        print("Draw")
+
+
 class Points:
     def __init__(self,x,y):
         self.x = x
