@@ -93,7 +93,23 @@ class Vehicle:
     def stop(self):
         print(f"{self.brand} is stopped!")
 
+class BMW(Vehicle):       # BMW will inherit all the methods and variables from the Vehicle class.
+    pass                    # Python does not recommend an empty class. "Pass"keyword is used to pass the line.
 
+
+bmw1 = BMW("bmw", 2020)
+
+bmw1.start()
+bmw1.stop()
+
+class Ford(Vehicle):
+    def engine(self, isGood):
+        self.isGood = isGood
+        print(f"it is good {isGood}")
+
+ford1 = Ford("Ford", 2025)
+ford1.start()
+ford1.engine(True)
 
 
 
