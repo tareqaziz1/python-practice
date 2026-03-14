@@ -30,7 +30,7 @@ inputName = input("What's your name? ")
 
 print(inputName)
 
-#uphow to take number input
+# take number as an input
 
 inputNumber = int(input("What is your age? "))
 
