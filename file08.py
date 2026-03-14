@@ -1,4 +1,4 @@
-# While loop syntax - ( while condistion: )
+# While loop syntax - ( while condition: )
 # As long as the condition is true the code will be executed
 
 i = 1
