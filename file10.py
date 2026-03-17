@@ -56,3 +56,23 @@ print(matrix) #output - [[1, 2, 3], [4, 5, 6], [7, 8, 10]]
 for row in matrix:
     for items in row:
         print(items)
+
+#Exercise
+
+data = [
+    [10,20,30],
+    [11,12,13],
+    [15,30,45],
+    [30,60,90]
+]
+
+num_of_row = len(data)
+num_of_column = len(data[3])
+
+average = []
+
+for col in range(num_of_column):
+    total = 0
+    for row in range(num_of_row):
+        total = data[row][col]
+
