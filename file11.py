@@ -60,3 +60,18 @@ for number in numbers:
 
 print(unique)
 
+# Make two lists of evens and odds
+
+arr1 = [6,7,10,12,16,13,2,1,3,18,20]
+even = []
+odd = []
+
+for x in arr1:
+    if x % 2 == 0:
+        even.append(x)
+    else:
+        odd.append(x)
+
+print(even)
+print(odd)
+
